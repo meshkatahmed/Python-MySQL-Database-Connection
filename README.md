@@ -1,2 +1,2 @@
 # Python MySQL Database Connection
- Bizdat Insights Task
+ Bizdata Insights Task
