@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gross Income</title>
+  </head>
+  <body>
+    <h1>Highest Monthly Gross Income:</h1>
+    <table style="border: 2px solid">
+      <tr style="border: 2px solid">
+        <th style="border: 2px solid">Month</th>
+        <th style="border: 2px solid">Highest Gross Income</th>
+      </tr>
+      {% for result in results %}
+        <tr style="border: 2px solid">
+          <td style="border: 2px solid">{{result.month}}</td>
+          <td style="border: 2px solid">{{result.highest_gross_income}}</td>
+        </tr>
+      {% endfor %}
+    </table>
+    
+  </body>
+</html>
