@@ -1,6 +1,5 @@
 from django.shortcuts import render
 from .models import HighestMonthlyGrossIncome
-from django.http import HttpResponse
 import pymysql
 # Create your views here.
 
